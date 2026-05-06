@@ -12,6 +12,8 @@ const Navbar = () => {
              Bhagyashri Khond
           </a>
         </div>
+        <div className="flex items-center justify-center gap-4 mt-2 ">
+
         <nav className="flex justify-center gap-4 text-sm mt-2 md:mt-0 md:absolute md:left-1/2 md:-translate-x-1/2 md:gap-8 md:text-base">
 
             <a href="#home" className='  text-white'>Home</a>
@@ -40,6 +42,7 @@ const Navbar = () => {
          <HiOutlineDocumentText style={{ width: "20px", height: "20px" }} />
       
          </a>
+        </div>
         </div>
         </div>
        </header>
