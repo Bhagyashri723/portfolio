@@ -12,7 +12,7 @@ const Navbar = () => {
              Bhagyashri Khond
           </a>
         </div>
-          <nav className="absolute left-1/2 transform -translate-x-1/2 flex gap-8 md:gap-8 md:text-base">
+          <nav className="flex flex-wrap justify-end gap-3 text-xs md:absolute md:left-1/2 md:-translate-x-1/2 md:gap-8 md:text-base">
 
             <a href="#home" className='  text-white'>Home</a>
             <a href="#about" className='  text-white'>About</a>
