@@ -6,8 +6,9 @@ import { HiOutlineDocumentText } from 'react-icons/hi';
 const Navbar = () => {
   return (
     <header className='bg-gray-800 md:sticky top-0 z-10'>
-      <div className="w-full flex flex-col md:flex-row md:items-center md:justify-between px-4 py-3">
-        <div className=' font-medium text-white mb-4 md:mb-0'>
+      <div className="w-full flex px-4 py-3 items-center justify-between">
+
+        <div className=' font-medium text-white'>
           <a href='#about' className="text-white text-base md:text-xl font-medium">
              Bhagyashri Khond
           </a>
