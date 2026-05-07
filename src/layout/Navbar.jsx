@@ -10,7 +10,7 @@ const Navbar = () => {
 
         <div className=' font-medium text-white'>
           <a href='#about' className="text-white text-base md:text-xl mt-0 font-medium">
-             Bhagyashri Khond
+             Bhagyashri K
           </a>
         </div>
 
