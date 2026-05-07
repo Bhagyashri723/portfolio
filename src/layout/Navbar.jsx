@@ -5,7 +5,7 @@ import { HiOutlineDocumentText } from 'react-icons/hi';
 
 const Navbar = () => {
   return (
-    <header className='bg-gray-800 md:sticky top-0 z-10'>
+    <header className='bg-gray-800 md:sticky top-0 z-10 py-2'>
       <div className="w-full flex px-4 py-3 items-center justify-between">
 
         <div className=' font-medium text-white'>
@@ -13,7 +13,8 @@ const Navbar = () => {
              Bhagyashri Khond
           </a>
         </div>
-        <div className="flex items-center justify-center gap-4 mt-2 ">
+
+        <div className="flex items-center justify-center gap-4 mt-2 flex-wrap">
 
         <nav className="flex justify-center gap-2 md:gap-4 text-sm mt-2 md:mt-0 md:absolute md:left-1/2 md:-translate-x-1/2 md:text-base">
 
