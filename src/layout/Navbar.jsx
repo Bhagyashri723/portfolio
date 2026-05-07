@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="w-full flex px-4 py-3 items-center justify-between">
 
         <div className=' font-medium text-white'>
-          <a href='#about' className="text-white text-base md:text-xl font-medium">
+          <a href='#about' className="text-white text-base md:text-xl mt-0 font-medium">
              Bhagyashri Khond
           </a>
         </div>
@@ -27,7 +27,7 @@ const Navbar = () => {
 
 
            </nav>
-           <div className="flex items-center gap-3 text-white">
+           <div className="flex items-center gap-2 text-white">
           <a href="https://github.com/Bhagyashri723" target="_blank">
            <FaGithub className="w-5 h-5" />
           </a>
