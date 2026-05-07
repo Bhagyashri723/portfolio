@@ -8,9 +8,9 @@ const Navbar = () => {
     <header className='bg-gray-800 md:sticky top-0 z-10 py-2'>
       <div className="w-full flex px-4 py-3 items-center justify-between">
 
-        <div className=' font-medium text-white'>
-          <a href='#about' className="text-white text-base md:text-xl mt-0 font-medium">
-             Bhagyashri K
+        <div className=' font-medium text-white -mt-2'>
+          <a href='#about' className="text-white text-base md:text-xl  font-medium">
+             Bhagyashri Khond
           </a>
         </div>
 
